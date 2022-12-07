@@ -28,7 +28,7 @@
 
 .title--fire:after {
     content: "";
-    background: url("/img/flame.png") no-repeat;
+    background: url("../../img/flame.png") no-repeat;
     margin-left: 10px;
     width: 21px;
     height: 28px;
