@@ -87,7 +87,7 @@ img {
 }
 
 .about {
-    background: url("img/2.png");
+    background: url("./img/2.png");
     background-repeat: no-repeat;
     height: 100vh;
 }
