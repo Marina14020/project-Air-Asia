@@ -74,7 +74,7 @@ img {
 }
 
 .wrapper__content--main {
-    background: url("img/1.png");
+    background: url("../../img/1.png");
     background-repeat: no-repeat;
     height: 100%;
 }
@@ -87,7 +87,7 @@ img {
 }
 
 .about {
-    background: url("./img/2.png");
+    background: url("../../img/2.png");
     background-repeat: no-repeat;
     height: 100vh;
 }
