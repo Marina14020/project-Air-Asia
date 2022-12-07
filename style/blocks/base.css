@@ -5,6 +5,7 @@ html {
 
 body,
 html {
+    background: url("../../img/fon.png") center;
     height: 100%;
 }
 
