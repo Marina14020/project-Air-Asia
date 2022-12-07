@@ -1,0 +1,22 @@
+.hello {
+    display: block;
+
+    float: left;
+
+    margin-top: 0px;
+    margin-bottom: 246px;
+}
+
+.hello__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.1;
+    margin-bottom: 27.5px;
+    width: 519px;
+}
+
+.hello__subtitle {
+    font-size: 18px;
+    margin-bottom: 36px;
+}
