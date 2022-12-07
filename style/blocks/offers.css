@@ -38,13 +38,14 @@
 
 
 
-.offers__item {
+/*.offers__item {
     min-width: 450px;
-    /*display: block;
+    display: block;
     margin-top: 46px;
     float: left;
     margin-left: 0;
-    background: #fff;*/
+    min-height: 450px;
+    background: #fff (255 255 255);
 }
 
 .offers__img {
@@ -54,6 +55,22 @@
     border-radius: 4px;
     display: inline-block;
     margin-right: 27px;
+}*/
+
+.offers__img {
+    min-height: 450px;
+    background: #fff (255 255 255);
+    border-radius: 4px;
+    display: inline-block;
+    width: 359px;
+    margin-right: 27px;
+}
+
+
+.offers__content {
+    padding: 26px 22px;
+    padding-top: 33px;
+    padding-bottom: 26px;
 }
 
 .offers__text {
