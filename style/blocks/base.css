@@ -9,6 +9,7 @@ html {
 }
 
 body {
+     background: url(../../img/fon.png) center center no-repeat;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #fff;
