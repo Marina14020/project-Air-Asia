@@ -1,6 +1,4 @@
 .about {
-    margin-top: 152px;
-    height: 552px;
     width: 1920px;
     height: 893px;
 }
@@ -21,7 +19,7 @@
     right: 0;
     width: 785px;
     height: 455px;
-    background: url("../../img/mountains.png") no-repeat;
+    background: url("../../img/mountains.png");
     padding-top: 70px;
     padding-left: 81px;
     padding-right: 81px;
