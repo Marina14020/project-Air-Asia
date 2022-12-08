@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    background: url(../../img/fon.png) center center no-repeat;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #fff;
@@ -91,6 +92,7 @@ img {
     background: url("../../img/2.png");
     background-repeat: no-repeat;
     height: 100vh;
+    margin-top: -123px;
 }
 
 .logo,

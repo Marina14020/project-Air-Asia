@@ -5,14 +5,6 @@
 
 }
 
-.offers__container {
-    width: 1140px;
-    height: 549px;
-    left: 389px;
-    top: 775px;
-    margin-top: 646px;
-}
-
 .title--fire {
     font-style: normal;
     font-weight: 700;
@@ -21,7 +13,6 @@
     margin-left: 0px;
     margin-bottom: 51px;
     margin-top: 244px;
-    width: 273px;
     width: 325px;
     height: 49px;
 }
@@ -36,43 +27,74 @@
     transform: translate(38%, 41%);
 }
 
-
-
-/*.offers__item {
-    min-width: 450px;
-    display: block;
-    margin-top: 46px;
-    float: left;
-    margin-left: 0;
-    min-height: 450px;
-    background: #fff (255 255 255);
+.offers__list{
+    min-width: 1309px;
+    min-height: 441px;
+    margin-bottom: 127px;
 }
+
+.offers__item{
+    min-height: 305px;
+    min-width: 362px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 22px;
+    color: #000000;
+}
+.offers__item:last-child{
+    margin-right: 0;
+}
+
 
 .offers__img {
     min-height: 144px;
-    margin-bottom: 33px;
-    background: #fff;
-    border-radius: 4px;
-    display: inline-block;
-    margin-right: 27px;
-}*/
-
-.offers__img {
-    min-height: 450px;
-    background: #fff (255 255 255);
-    border-radius: 4px;
-    display: inline-block;
-    width: 359px;
-    margin-right: 27px;
+    min-width: 362px;
 }
 
 
 .offers__content {
-    padding: 26px 22px;
+    padding: 23px 20px;
+    /*padding-bottom: 26px;*/
+    background: #fff; 
+    min-width: 362px;
+    min-height: 305px;
+    /*padding-right: 323px;*/
     padding-top: 33px;
-    padding-bottom: 26px;
+    color: #303030;
+    width: 362px;
+height: 305px;
+}
+
+.offers__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    width: 108px;
+    margin-bottom: 20px;
+    color: #000000;
+    
+}
+
+.offers__feature{
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    margin-right: 128px;
+}
+
+
+
+.offers__feature-text{
+    width: 90px;
 }
 
 .offers__text {
-    width: 362px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 24px;
 }
