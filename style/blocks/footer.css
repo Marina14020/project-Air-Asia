@@ -19,7 +19,7 @@
 
 .menu{
     display: flex;
-    margin-top: 42px;/*-*/
+    margin-top: 42px;
     justify-content: space-between;
     margin-top: 61px;
 }
@@ -27,7 +27,6 @@
 ul{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .menu__item{
@@ -35,9 +34,6 @@ ul{
     margin-right: 54px;
     display: inline-block;
 }
-
-
-
 
 .socials__icon{
     display: flex;
@@ -59,29 +55,12 @@ ul{
     text-decoration: none;
     width: 36px;
     height: 36px;
-    
 }
-
-
 
 .contacts__footer{
     float: right;
     width: 248px;
-    /*text-align: right;
-    font-style: normal;*/
 }
-
-
-
-
-
-
-/*разделительная линия над футером*/
-/*.container footer__container{
-    border-top: 1px solid #FFFFFF;
-}*/
-
-
 
 .contacts__coll{
     color: #9A9A9A;
