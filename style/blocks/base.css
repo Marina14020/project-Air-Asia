@@ -6,8 +6,9 @@ html {
 body,
 html {
      background-color: #001821;
+     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    
 }
 
 body {
