@@ -101,13 +101,15 @@ img {
     display: inline-block;
 }
 
+
 .logo,
 .contacts {
-    margin-top: 29px;
+    margin-top: 39px;
 }
 
 .logo {
     float: left;
+    margin-top: 49px;
 }
 
 .contacts {
