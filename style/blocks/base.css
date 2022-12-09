@@ -80,6 +80,7 @@ img {
     background: url("../../img/1.png");
     background-repeat: no-repeat;
     height: 100%;
+    margin-left: 111px;
 }
 
 .container {
