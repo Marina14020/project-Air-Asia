@@ -5,12 +5,11 @@ html {
 
 body,
 html {
-    background: url(../../img/fon.png) center;
+     background-color: #001821;
     height: 100%;
 }
 
 body {
-    background: url(../../img/fon.png) center center no-repeat;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #fff;
