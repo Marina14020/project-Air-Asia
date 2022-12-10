@@ -28,7 +28,7 @@
 }
 
 .offers__list{
-    min-width: 1309px;
+    min-width: 1140px;
     min-height: 441px;
     margin-bottom: 127px;
 }
@@ -60,7 +60,7 @@
     padding-top: 33px;
     color: #303030;
     width: 362px;
-height: 305px;
+    height: 305px;
 }
 
 .offers__title{
@@ -103,3 +103,11 @@ height: 305px;
     color: #F5170E;
     border: 1px solid #F5170E;
 }
+
+
+
+
+
+
+
+
