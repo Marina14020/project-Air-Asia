@@ -1,14 +1,10 @@
 .footer{
     height: 152px;
     display: flex;
-    margin-top: 44px;
+    margin-top: 53px;
     border-top: 2px solid rgb(32, 31, 38);
     margin-right: 323px;
     margin-left: 335px;
-}
-
-.logo{
-    margin-right: 79px;
 }
 
 .logo__img{
@@ -19,9 +15,9 @@
 
 .menu{
     display: flex;
-    margin-top: 42px;
+    /*margin-top: 42px;
     justify-content: space-between;
-    margin-top: 61px;
+    margin-top: 61px;*/
 }
 
 ul{
@@ -59,7 +55,7 @@ ul{
 
 .contacts__footer{
     float: right;
-    width: 248px;
+    width: 192px;
 }
 
 .contacts__coll{
