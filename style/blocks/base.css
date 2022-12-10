@@ -106,12 +106,7 @@ img {
 
 .logo,
 .contacts {
-    margin-top: 39px;
-}
-
-.logo {
-    float: left;
-    margin-top: 49px;
+    margin-top: 29px;
 }
 
 .contacts {
@@ -119,8 +114,13 @@ img {
 }
 
 .menu {
-    margin-top: 42px;
-    margin-left: 79px;
+    display: flex;
+    /*margin-top: 0px;
+    margin-left: 79px;  без "-" не раб*/
+    justify-content: space-between;
+    margin-top: -35px;
+    margin-left: 153px;
+    
 }
 
 .menu__item {
@@ -171,3 +171,5 @@ img {
     line-height: 19px;
     text-transform: uppercase;
 }
+
+
