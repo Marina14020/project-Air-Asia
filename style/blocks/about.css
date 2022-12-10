@@ -9,17 +9,17 @@
 
 .about__pic-img {
     float: left;
-    margin-top: 303px;
+    margin-top: 291px;
 
 }
 
 .about__content {
     position: absolute;
-    top: 400px;
+    top: 396px;
     right: 0;
     width: 785px;
     height: 455px;
-    background: url(../../img/mountains.png);
+    background: url("../../img/mountains.png");
     padding-top: 70px;
     padding-left: 81px;
     padding-right: 81px;
@@ -52,3 +52,8 @@
 .contacts__info {
     text-decoration-line: underline;
 }
+
+
+
+
+
