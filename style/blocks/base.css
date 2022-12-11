@@ -5,10 +5,9 @@ html {
 
 body,
 html {
-     background-color: #001821;
-     background-repeat: no-repeat;
+    background-color: #001821;
+    background-repeat: no-repeat;
     height: 100%;
-    
 }
 
 body {
@@ -60,7 +59,6 @@ a {
 }
 */
 
-
 img {
     display: inline-block;
     max-width: 100%;
@@ -104,7 +102,6 @@ img {
     display: inline-block;
 }
 
-
 .logo,
 .contacts {
     margin-top: 29px;
@@ -115,13 +112,9 @@ img {
 }
 
 .menu {
-    display: flex;
-    /*margin-top: 0px;
-    margin-left: 79px;  без "-" не раб*/
-    justify-content: space-between;
-    margin-top: -35px;
-    margin-left: 153px;
-    
+    display: inline-block;
+    margin-left: 79px;
+    margin-right: 274px;
 }
 
 .menu__item {
@@ -172,5 +165,3 @@ img {
     line-height: 19px;
     text-transform: uppercase;
 }
-
-
