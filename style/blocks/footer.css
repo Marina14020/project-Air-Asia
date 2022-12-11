@@ -1,45 +1,36 @@
 .footer{
-    height: 152px;
-    display: flex;
+    height: 93px;
+    display: block;
     margin-top: 53px;
+}
+
+.footer__container{
     border-top: 2px solid rgb(32, 31, 38);
-    margin-right: 323px;
-    margin-left: 335px;
+
 }
 
 .logo__img{
-    display: block;
+    display: inline-block;
     max-width: 100%;
     min-height: 100%;
 }
 
-.menu{
-    display: flex;
-    /*margin-top: 42px;
-    justify-content: space-between;
-    margin-top: 61px;*/
-}
-
-ul{
-    display: flex;
-    justify-content: space-between;
-}
-
 .menu__item{
-    display: inline-block;
     margin-right: 54px;
-    display: inline-block;
+}
+
+.socials{
+display: inline-block;
 }
 
 .socials__icon{
-    display: flex;
-    margin-left: 681px;
-    width: 170px;
+    display: inline-block;
+   
 }
 
 .socials__item{
-    vertical-align: middle;
-    margin-right: 10px;
+    display: inline-block;
+    
 }
 
 .socials__item:last-child{
@@ -47,10 +38,11 @@ ul{
 }
 
 .socials__link{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     width: 36px;
     height: 36px;
+    
 }
 
 .contacts__footer{
