@@ -33,18 +33,17 @@ display: inline-block;
     display: inline-block;
 }
 
+.socials__item:last-child{
+    margin-right: 74px;
+}
+
 .socials__link{
     display: block;
     text-decoration: none;
     width: 36px;
     height: 36px;
     margin-right: 10px;
-    
 }
-.socials__link:last-child{
-    margin-right: 0;
-}
-
 
 .contacts__footer{
     float: right;
