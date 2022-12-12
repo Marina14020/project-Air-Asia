@@ -31,20 +31,20 @@ display: inline-block;
 
 .socials__item{
     display: inline-block;
-    
-}
-
-.socials__item:last-child{
-    margin-right: 0;
 }
 
 .socials__link{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     width: 36px;
     height: 36px;
+    margin-right: 10px;
     
 }
+.socials__link:last-child{
+    margin-right: 0;
+}
+
 
 .contacts__footer{
     float: right;
