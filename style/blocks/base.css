@@ -30,6 +30,7 @@ ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    display: flex;
 }
 
 h1,
@@ -99,37 +100,37 @@ img {
 .menu,
 .menu__item,
 .contacts {
-    display: inline-block;
+    display: block;
+    margin-right: 80px;
 }
 
-.logo,
+/*.logo,
 .contacts {
     margin-top: 29px;
-}
+}*/
 
 .contacts {
-    float: right;
+    margin-right: 0px;
 }
 
 .menu {
-    display: inline-block;
-    margin-left: 79px;
-    margin-right: 274px;
+  justify-content: space-between;
 }
 
-.menu__item {
+/*.menu__item {
     margin-right: 54px;
 }
 
 .menu__item:last-child {
     margin-right: 0;
-}
+}*/
 
 .contacts__phone {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 35px;
+    text-align: right;
 }
 
 .contacts__info {
