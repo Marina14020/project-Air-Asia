@@ -1,7 +1,10 @@
 .footer{
+    margin-bottom: 65px;
     height: 93px;
-    display: block;
     margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer__container{
@@ -10,28 +13,36 @@
 }
 
 .logo__img{
-    display: inline-block;
+    display: block;
     max-width: 100%;
     min-height: 100%;
 }
 
+
+/*ul{
+    display: flex;
+    justify-content: space-between;
+    
+}*/
 
 .menu__item{
     margin-right: 54px;
 }
 
 .socials{
-display: inline-block;
+display: flex;
+
 }
 
 .socials__icon{
-    display: inline-block;
-   
+    display: flex;
 }
 
 .socials__item{
-    display: inline-block;
+    display: flex;
+    
 }
+
 
 .socials__item:last-child{
     margin-right: 0px;
@@ -43,6 +54,7 @@ display: inline-block;
     width: 36px;
     height: 36px;
     margin-right: 10px;
+    
 }
 
 .contacts__footer{
