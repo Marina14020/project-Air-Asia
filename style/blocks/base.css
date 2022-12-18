@@ -27,10 +27,9 @@ button {
 }
 
 ul {
-    padding: 0;
-    margin: 0;
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 
 h1,
@@ -96,33 +95,31 @@ img {
     margin-top: -123px;
 }
 
-.logo,
+/*.logo,
 .menu,
 .menu__item,
 .contacts {
     display: block;
-    margin-right: 80px;
-}
-
-/*.logo,
-.contacts {
-    margin-top: 29px;
+    width: 50%;
 }*/
 
-.contacts {
+.logo{
+    display: block;
+    margin-right: 80px;
+    
+}
+
+.menu__item:last-child{
     margin-right: 0px;
 }
 
-.menu {
-  justify-content: space-between;
+.menu__link {
+    font-size: 14px;
 }
 
-/*.menu__item {
-    margin-right: 54px;
-}
 
-.menu__item:last-child {
-    margin-right: 0;
+/*.menu {
+    justify-content: space-between;
 }*/
 
 .contacts__phone {
