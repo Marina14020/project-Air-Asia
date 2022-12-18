@@ -1,17 +1,33 @@
 
 .header {
-    padding-top: 30px;
-    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.header__container{
+    display: flex;
+    padding-right: 0px;
+    padding-top: 27px;
+   /* flex-direction: column;
+   justify-content: space-between;
+   min-height: 600px;*/
 }
 
 .header__col{
     display: flex;
     align-items: center;
+    width: 50%;
 }
 
 .header__col--align-right{
     justify-content: flex-end;
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+
+.contacts__info {
+    text-decoration-line: underline;
 }
