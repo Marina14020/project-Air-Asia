@@ -1,6 +1,5 @@
 .hello {
     display: block;
-    /*margin-top: 100px;*/
     margin-top: 0px;
     margin-bottom: 246px;
 }
@@ -11,9 +10,8 @@
     font-size: 72px;
     line-height: 1.1;
     margin-bottom: 27.5px;
-    margin-top: 131px;
+    /*margin-top: 131px;*/
     width: 50%;
-
 }
 
 .hello__subtitle {
