@@ -1,5 +1,4 @@
 .offers {
-    display: block;
     margin-top: 120px;
     margin-bottom: 127px;
 
@@ -31,33 +30,30 @@
     min-width: 1140px;
     min-height: 441px;
     margin-bottom: 127px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .offers__item{
-    min-height: 305px;
+    min-height: 449px;
     min-width: 362px;
     border-radius: 4px;
-    display: inline-block;
-    margin-right: 22px;
     color: #000000;
-    
+    overflow: hidden;
+    width: calc(100% / 3 - 18px);
 }
-.offers__item:last-child{
-    margin-right: 0;
-}
-
 
 .offers__img {
     min-height: 144px;
     min-width: 362px;
 }
 
+
 .offers__content {
     padding: 23px 20px;
     background: #fff; 
     padding-top: 33px;
     color: #303030;
-    width: 362px;
     height: 305px;
 }
 
@@ -69,6 +65,7 @@
     width: 108px;
     margin-bottom: 20px;
     color: #000000;
+    
 }
 
 .offers__feature{
@@ -101,10 +98,6 @@
     color: #F5170E;
     border: 1px solid #F5170E;
 }
-
-
-
-
 
 
 
