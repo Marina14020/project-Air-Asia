@@ -1,24 +1,25 @@
 .paginator {
-    text-align: center;
-}
-
-.paginator__display, .paginator__list{
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paginator__display{
     margin-right: 36px;
 }
 
+.paginator__list{
+    display: flex;
+    align-items: center;
+}
+
 .paginator__item{
-    display: inline-block;
-    vertical-align: middle;
+    text-align: center;
 }
 
 .paginator__item--active .paginator__link{
-      background: #FFFFFF;
-      color: #F5170E;
+    background: #FFFFFF;
+    color: #F5170E;
 }
 
 .paginator__link{
@@ -26,14 +27,9 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    /*position: relative;*/
     border-radius: 50%;
     text-decoration: none;
     font-weight: 700;
     line-height: 32px;
 }
-
-
-
-
-
-
