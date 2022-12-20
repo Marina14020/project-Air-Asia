@@ -20,7 +20,7 @@
     position: absolute;
     top: 390px;
     right: 0;
-    width: 785px;
+    max-width: 785px;
     height: 455px;
     background: url("../../img/mountains.png");
     padding-top: 70px;
