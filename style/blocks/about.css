@@ -13,6 +13,7 @@
 
 .about__pic-img {
     margin-top: 291px;
+    display: flex;
 }
 
 .about__content {
