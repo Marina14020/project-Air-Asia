@@ -13,6 +13,8 @@
     height: 392px;
     margin-right: 2%;
     flex: 1;
+     background: url("/img/plain.png");
+    background: url("/img/Surfer.png");
 }
 
 .news__item:last-child{
