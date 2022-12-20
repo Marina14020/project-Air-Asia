@@ -1,25 +1,27 @@
 .about {
     width: 1920px;
     height: 893px;
+    
+    background: url("../../img/2.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -123px;
 }
-
 .about__container {
     position: relative;
 }
 
 .about__pic-img {
-    float: left;
     margin-top: 291px;
-
 }
 
 .about__content {
     position: absolute;
-    top: 396px;
+    top: 98px;
     right: 0;
     width: 785px;
     height: 455px;
-    background: url("../../img/mountains.png");
+    background: url("/img/mountains.png");
     padding-top: 70px;
     padding-left: 81px;
     padding-right: 81px;
@@ -39,18 +41,6 @@
 
 .about__button {
     margin-top: 43px;
-}
-
-.menu__link {
-    font-size: 14px;
-}
-
-.contacts__phone {
-    margin-bottom: 4px;
-}
-
-.contacts__info {
-    text-decoration-line: underline;
 }
 
 
