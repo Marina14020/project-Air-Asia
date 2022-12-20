@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     height: 100vh;
     margin-top: -123px;
+    display: flex;
 }
 .about__container {
     position: relative;
@@ -13,12 +14,11 @@
 
 .about__pic-img {
     margin-top: 291px;
-    display: flex;
-}
+   }
 
 .about__content {
     position: absolute;
-    top: 98px;
+    top: 390px;
     right: 0;
     width: 785px;
     height: 455px;
