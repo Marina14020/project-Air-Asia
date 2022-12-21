@@ -3,13 +3,13 @@
     height: 93px;
     margin-top: 53px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .footer__container{
     border-top: 2px solid rgb(32, 31, 38);
-    margin-bottom: 147px;
+    margin-bottom: 129px;
+    display: flex;
 }
 
 .footer__col{
@@ -18,9 +18,9 @@
 }
 
 .footer__col--align-right{
-    align-items: flex-end;
     justify-content: flex-end;
     display: flex;
+    width: 42%;
     
 }
 
@@ -63,10 +63,11 @@
 .contacts__footer{
     float: right;
     width: 192px;
+    margin-top: 28px;
 }
 
 .contacts__coll{
     color: #9A9A9A;
     font-size: 11px;
     font-style: normal;
- }
+}
