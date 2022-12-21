@@ -61,7 +61,9 @@
 }
 
 .contacts__coll{
-    color: #9A9A9A;
-    font-size: 11px;
+    float: right;
     font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
 }
