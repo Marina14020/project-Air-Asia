@@ -99,6 +99,9 @@
 .paginator__item--active-services{
     background: #f5170E;
     color: #ffffff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }
 
 .inner-section{
