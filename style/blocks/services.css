@@ -63,7 +63,7 @@
 
 .services{
     display: flex;
-    flex-direction: column;/*------*/
+    flex-direction: column;
     padding-left: 0px;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .services__text{
-    margin-bottom: 35px; 
+    margin-bottom: 35px;
 }
 
 .inner-section{
@@ -110,12 +110,13 @@
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 99px;
-   
+    color: #1A1B1E;
 }
 
 .partners{
     display: flex;
     flex-wrap: wrap;
+    margin-left: -35px;
 }
 
 .partners__item{
@@ -138,5 +139,10 @@
 
 .inner-footer{
     display: flex;
+    background: #001821;
+    margin-top: auto;
 }
 
+.inner-foter__container{
+    padding: 9px 0;
+}
