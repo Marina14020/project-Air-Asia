@@ -54,10 +54,9 @@ a {
     display: block;
 }
 
-/*a:hover {
+a:hover {
     color: #da0100;
 }
-*/
 
 img {
     display: flex;
