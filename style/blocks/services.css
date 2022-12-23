@@ -96,6 +96,11 @@
     margin-bottom: 35px;
 }
 
+.paginator__item--active-services{
+    background: #f5170E;
+    color: #ffffff;
+}
+
 .inner-section{
     background: #fff;
     color: #1A1B1E;
