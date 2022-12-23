@@ -32,6 +32,7 @@ ul {
     justify-content: space-between;
 }
 
+
 h1,
 h2,
 h3,
@@ -58,10 +59,12 @@ a:hover {
     color: #da0100;
 }
 
+
 img {
-    display: flex;
+    
     max-width: 100%;
     max-height: 100%;
+    display: block;
 }
 
 .wrapper {
@@ -90,7 +93,7 @@ img {
 .logo{
     display: block;
     margin-right: 80px;
-    
+  
 }
 
 .menu__item:last-child{
@@ -101,12 +104,14 @@ img {
     font-size: 14px;
 }
 
+
 .contacts__phone {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
     text-align: right;
+    margin-top: 4px;
 }
 
 .contacts__info {
