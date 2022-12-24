@@ -1,156 +1,246 @@
-.top-line{
-    min-height: 412px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 18px;
-    background: url("../../img/headline 1.png") top no-repeat;
-}
-.top-line__container{
-    display: flex;
-    flex: 1; 
-    flex-direction: column;
-    justify-content: space-between;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.page-title{
-    font-size: 72px;
-    line-height: 1;
-    font-weight: 700;
-    margin-bottom: 46px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Air Asia | Services Page</title>
+</head>
 
-.breadcrumbs__list{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 0;
-}
+<body>
 
-.breadcrumbs__item{
-    display: flex;
-    align-items: center;
-    padding-left: 2px;
-}
+    <div class="wraper">
+        <section class="top-line">
+            <div class="container top-line__container">
+                <header class="header">
+                    <div class="container header__container">
+                        <div class="header__col">
+                            <a href="#" class="logo">
+                                <img src="img/logo.png" alt="logo compay" class="logo__img">
+                            </a>
+                            <nav class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="./index.html" class="menu__link">Главная</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="./services.html" class="menu__link">Услуги</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="./reviews.html" class="menu__link">Отзывы</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__col header__col--align-right">
+                            <address class="contacts">
+                                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                                <div class="contacts__info">График работы</div>
+                            </address>
+                        </div>
+                    </div>
+                </header>
+                <h1 class="page-title">Услуги</h1>
+                <nav class="breadcrumbs">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__item breadcrumbs__item--active">
+                            <a href="./services.html" class="breadcrumbs__link">Услуги</a>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+        </section>
+        <main class="page-contant">
+            <div class="container">
+                <ul class="services">
+                    <li class="services__item-service">
+                        <div class="service__img">
+                            <img src="./img/waterfall.png" class="service__img-elem" alt="waterfall">
+                        </div>
+                        <div class="service__content">
+                            <h2 class="service__title">
+                                Водопад Янг-бей
+                            </h2>
+                            <div class="service__desc">
+                                <p class="services__text">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику,
+                                    вебмастеру сгенерировать несколько абзацев более
+                                    менее осмысленного текста рыбы на русском
+                                    языке, а начинающему оратору отточить
+                                    навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали
+                                    небезизвестный универсальный код речей.
+                                </p>
+                                <a href="#" class="button button--light">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item-service">
+                        <div class="service__img">
+                            <img src="./img/monkeys.png" class="service__img-elem" alt="monkeys">
+                        </div>
+                        <div class="service__content">
+                            <h2 class="service__title">
+                                Остров обезьян
+                            </h2>
+                            <div class="service__desc">
+                                <p class="services__text">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного
+                                    текста рыбы на русском языке, а начинающему оратору отточить
+                                    навык публичных выступлений в домашних условиях. При создании
+                                    генератора мы использовали небезизвестный универсальный код речей.
+                                </p>
+                                <a href="#" class="button">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="paginator">
+                    <div class="paginator__display">
+                        <p class="paginator__text">Страница 1 из 7</p>
+                    </div>
+                    <ul class="paginator__list">
+                        <li class="paginator__item paginator__item--active-services">
+                            <a href="#" class="paginator__link">1</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">2</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">3</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">4</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">5</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">6</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">7</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
 
-.breadcrumbs__item--active .breadcrumbs__link{
-    color: #999999;
-    text-decoration: underline;
-}
+        <section class="inner-section inner-section--bg-grey">
+            <div class="container">
+                <h2 class="inner-section__title">Партнеры</h2>
+                <ul class="partners">
+                    <li class="partners__item">
+                        <a href="#" class="partners_link">
+                            <img src="./img/pobeda.png" alt="pobeda logo">
+                        </a>
+                    </li>
+                    <li class="partners__item">
+                        <a href="#" class="partners_link">
+                            <img src="./img/s7.png" alt="s7 logo">
+                        </a>
+                    </li>
+                    <li class="partners__item">
+                        <a href="#" class="partners_link">
+                            <img src="./img/lets-fly.png" alt="lets-fly logo">
+                        </a>
+                    </li>
+                    <li class="partners__item">
+                        <a href="#" class="partners_link">
+                            <img src="./img/lufthansa.png" alt="lufthansa logo">
+                        </a>
+                    </li>
+                    <li class="partners__item">
+                        <a href="#" class="partners_link">
+                            <img src="./img/airbaltic.png" alt="airbaltic logo">
+                        </a>
+                    </li>
+                    <li class="partners__item">
+                        <a href="#" class="partners_link">
+                            <img src="./img/pegasus.png" alt="pegasus logo">
+                        </a>
+                    </li>
+                    <li class="partners__item">
+                        <a href="#" class="partners_link">
+                            <img src="./img/ural.png" alt="ural logo">
+                        </a>
+                    </li>
+                    <li class="partners__item">
+                        <a href="#" class="partners_link">
+                            <img src="./img/pegas.png" alt="pegas logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
 
-.breadcrumbs__item:after{
-    content: "/";
-    color: #9A9A9A;
-    padding-left: 5px;
-}
+        <footer class="inner-footer">
+            <div class="container inner-foter__container">
+                <div class="footer footer-container__section">
+                    <div class="footer__col">
+                        <a href="/" class="logo">
+                            <img src="./img/logo.png" alt="logo compay" class="logo__img">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item menu__item">
+                                    <a href="./index.html" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./services.html" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./reviews.html" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__col footer__col--align-right">
+                        <div class="socials">
+                            <ul class="socials__icon">
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/telegram.png" alt="Картинка, которая является ссылкой1"
+                                            class="socials__img">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/vk.png" alt="Картинка, которая является ссылкой 2"
+                                            class="socials__img">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/f.png" alt="Картинка, которая является ссылкой 3"
+                                            class="socials__img">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/in.png" alt="Картинка, которая является ссылкой 4"
+                                            class="socials__img">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <address class="contacts">
+                        <div class="contacts__coll" style="text-align: end;">Бесплатный звонок по России</div>
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
 
-.breadcrumbs__item:last-child:after{
-    display: none;
-}
-
-.breadcrumbs__link{
-    color: #9A9A9A;
-    font-size: 14px;
-    text-decoration: underline;
-}
-
-.page-contant{
-    background: #fff ;
-    color: #303030;
-    height: 994px;
-    display: flex;
-    padding: 98px 181px 0;
-}
-
-.services{
-    display: flex;
-    flex-direction: column;
-    padding-left: 0px;
-}
-
-.services__item-service{
-    display: flex;
-    margin-bottom: 49px;
-}
-
-.service__img{
-    margin-right: 7%;
-}
-
-.service__content{
-    flex: 1;
-}
-
-.service__title{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 25px;
-    color: #000000;
-}
-
-.service__desc{
-    line-height: 1.7;
-    margin-bottom: 34px;
-}
-
-.services__text{
-    margin-bottom: 35px;
-}
-
-.paginator__item--active-services{
-    background: #f5170E;
-    color: #ffffff;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-}
-
-.inner-section{
-    background: #fff;
-    color: #1A1B1E;
-    padding: 88px 390px;
-}
-
-.inner-section--bg-grey{
-    background: #F4F5F5;
-}
-
-.inner-section__title{
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 99px;
-    color: #1A1B1E;
-}
-
-.partners{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -35px;
-}
-
-.partners__item{
-    margin-left: 46px;
-}
-
-.partners__item:nth-child(4n + 1){
-    margin-left: 0;
-}
-
-.partners_link{
-    text-decoration: none;
-    display: flex;
-    width: 226px;
-    height: 37px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 88px;
-}
-
-.inner-footer{
-    display: flex;
-    background: #001821;
-    margin-top: auto;
-}
-
-.inner-foter__container{
-    padding: 9px 0;
-}
+</html>
