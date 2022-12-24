@@ -32,7 +32,6 @@ ul {
     justify-content: space-between;
 }
 
-
 h1,
 h2,
 h3,
@@ -59,9 +58,7 @@ a:hover {
     color: #da0100;
 }
 
-
 img {
-    
     max-width: 100%;
     max-height: 100%;
     display: block;
@@ -78,8 +75,8 @@ img {
 }
 
 .wrapper__content--main {
-    background: url("../../img/1.png");
-    background-repeat: no-repeat;
+    background: url("../../img/1.png") center top no-repeat, url("../../img/2.png") right bottom 160px no-repeat;
+    
     height: 100%;
 }
 
@@ -93,7 +90,7 @@ img {
 .logo{
     display: block;
     margin-right: 80px;
-  
+    
 }
 
 .menu__item:last-child{
