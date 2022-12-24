@@ -1,24 +1,21 @@
 .about {
-    width: 1920px;
-    height: 893px;
-    
     background: url("../../img/2.png");
     background-repeat: no-repeat;
-    height: 100vh;
-    margin-top: -171px;
     display: flex;
+    margin-top: 138px;
+    margin-bottom: 92px;
 }
 .about__container {
     position: relative;
 }
 
 .about__pic-img {
-    margin-top: 291px;
-   }
+    margin-top: 0px;
+}
 
 .about__content {
     position: absolute;
-    top: 390px;
+    top: 102px;
     right: 0;
     width: 785px;
     height: 455px;
@@ -43,7 +40,6 @@
 .about__button {
     margin-top: 43px;
 }
-
 
 
 
