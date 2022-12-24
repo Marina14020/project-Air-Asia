@@ -1,0 +1,52 @@
+.review{
+    display: flex;
+    flex-direction: column;
+}
+
+.review__header{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.review__user{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1A1B1E;
+    margin-bottom: 11px;
+}
+
+.review__user--active{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2E77A4;
+    text-decoration-line: underline;
+    margin-bottom: 11px;
+}
+
+.review__user:after{
+    content: url("../../img/vk-blue\ 1.png");
+    height: 29px;
+    margin-left: 6px;
+    margin-bottom: 3px;
+}
+
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag{
+    font-size: 13px;
+}
