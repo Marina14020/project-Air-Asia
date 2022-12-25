@@ -4,11 +4,12 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-}
+ }
 
 .reviews__item{
     margin-bottom: 20px;
 }
+
 
 .review__header{
 display: flex;
