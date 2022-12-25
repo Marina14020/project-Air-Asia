@@ -4,6 +4,13 @@
 }
 
 .review__header{
+display: flex;
+align-items: center;
+margin-bottom: 27px;
+
+}
+
+.review__header{
     display: flex;
     align-items: center;
 }
@@ -47,10 +54,21 @@
     align-items: flex-start;
 }
 
-.tag{
+.tag__bg{  /*кнопка  зеленая*/
     font-size: 13px;
-    background: #B9EAE4; /*кнопка  зеленая*/
+    background: #B9EAE4; 
     padding: 8px 16px;
     border-radius: 35px;
     color: #303030;
+}
+
+.tag__bg--light{
+    background: #E7E7E7;   /*кнопка  cерая*/
+}
+
+.review__title{
+    font-size: 30px;
+    color: #1A1B1E;
+    font-weight: 700;
+    margin-bottom: 13px;
 }
