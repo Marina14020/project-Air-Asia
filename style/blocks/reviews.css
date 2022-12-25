@@ -1,15 +1,19 @@
 .reviews{   /*ul*/
     display: flex;
-    flex-direction: column;
     display: inline-block;
+    column-gap: 26px;
     column-count: 2;
+    margin-bottom: 37px;
+   
 }
 
 .reviews__item{  /*li*/
+    flex-direction: column;
     border-radius: 5px;
     padding: 50px 30px;
     background: #F4F5F5;
     margin-bottom: 20px;
+    
 }
 
 
@@ -65,6 +69,8 @@ margin-bottom: 27px;
 }
 
 .tag__bg{  /*кнопка  зеленая*/
+    font-weight: 444px;
+    font-size: 14px;
     font-size: 13px;
     background: #B9EAE4; 
     padding: 8px 16px;
