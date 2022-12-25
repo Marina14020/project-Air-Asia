@@ -1,101 +1,196 @@
-.reviews{   /*ul*/
+.top-line {
+    min-height: 412px;
     display: flex;
-    display: inline-block;
-    column-gap: 26px;
-    column-count: 2;
-    margin-bottom: 37px;
-   
-}
-
-.reviews__item{  /*li*/
     flex-direction: column;
-    border-radius: 5px;
-    padding: 50px 30px;
-    background: #F4F5F5;
-    margin-bottom: 20px;
-    
+    padding-bottom: 18px;
+    background: url("../../img/headline 1.png") top no-repeat;
 }
 
-
-.review__header{
-display: flex;
-align-items: center;
-margin-bottom: 27px;
-
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.review__header{
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 46px;
+}
+
+.breadcrumbs__list {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
 }
 
-.review__photo{
-    width: 142px;
-    height: 142px;
-    overflow: hidden;
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #9A9A9A;
+    padding-left: 5px;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.page-contant {
+    background: #fff;
+    color: #303030;
+    min-height: 1019px;
+    display: flex;
+    padding: 82px 181px 0;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    /*------*/
+    padding-left: 0px;
+}
+
+.services__item-service {
+    display: flex;
+    margin-bottom: 49px;
+}
+
+.service__img {
+    margin-right: 7%;
+}
+
+.service__content {
+    flex: 1;
+}
+
+.service__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.service__desc {
+    line-height: 1.7;
+    margin-bottom: 34px;
+}
+
+.services__text {
+    margin-bottom: 35px;
+}
+
+.paginator__item--active-services {
+    background: #f5170E;
+    color: #ffffff;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
 }
 
+.inner-section {
+    background: #fff;
+    color: #1A1B1E;
+    padding: 0px;
+}
 
-.review__user{
+.inner-section--bg-grey {
+    background: #F4F5F5;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 99px;
+    color: #1A1B1E;
+    padding-top: 88px;
+}
+
+
+
+
+/*Отступ между лого
+.partners__item{  
+    margin-left: 46px;
+}*/
+
+.partners__list {
+    justify-content: space-between;
+    padding: 0px;
+
+}
+
+
+.partners__item:nth-child(4n + 1) {
+    margin-left: 0;
+}
+
+.partners__link {
+    text-decoration: none;
     display: flex;
+    width: 270px;
+    /*250*/
+    height: 100px;
     align-items: center;
-    font-size: 24px;
-    font-weight: 700;
-    color: #1A1B1E;
-    margin-bottom: 11px;
+    justify-content: center;
+    margin-bottom: 88px;
 }
 
-.review__user--active{
+.inner-footer {
     display: flex;
-    align-items: center;
-    font-size: 24px;
-    font-weight: 700;
-    color: #2E77A4;
-    text-decoration-line: underline;
-    margin-bottom: 11px;
+    background: #001821;
+    margin-top: auto;
 }
 
-.review__user:after{
-    content: url("../../img/vk-blue\ 1.png");
-    height: 29px;
-    margin-left: 6px;
-    margin-bottom: 3px;
+.inner-foter__container {
+    padding: 9px 0;
 }
 
-.review__tags{
+.form__row {
     display: flex;
-    align-items: flex-start;
 }
 
-.tag__bg{  /*кнопка  зеленая*/
-    font-weight: 444px;
-    font-size: 14px;
-    font-size: 13px;
-    background: #B9EAE4; 
-    padding: 8px 16px;
-    border-radius: 35px;
-    color: #303030;
+.form__row{
+    margin-bottom: 26px;
 }
 
-.tag__bg--light{
-    background: #E7E7E7;   /*кнопка  cерая*/
-}
-
-.review__title{
-    font-size: 30px;
+.form__input {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 30px;
+    font-weight: 400;
+    font-size: 18px;
     color: #1A1B1E;
-    font-weight: 700;
-    margin-bottom: 13px;
 }
 
-.review__contant-text{
-    margin-bottom: 49px;
-    color: #818181;
+.form__input::placeholder{
+    color: #666666;
 }
 
-.review__date{
-    font-size: 14px;
-    font-weight: 600;
-    color: #1A1B1E;
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input--textarea{
+    height: 235px;
 }
